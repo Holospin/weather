@@ -290,7 +290,7 @@ public class MainActivity extends BaseActivity {
   }
 
   private void getCurrentWeather(String cityName, boolean isSearch) {
-    apiKey = getResources().getString(R.string.open_weather_map_api);
+    apiKey = "3e5912676e6cd02e4d422665152f0948";
     disposable.add(
         apiService.getCurrentWeather(
             cityName, Constants.UNITS, defaultLang, apiKey)
